@@ -1,0 +1,11 @@
+(sym_lib_table
+  (lib (name "3221-10-0100-00")(type "Legacy")(uri "${KIPRJMOD}/components/connectors/jtag/3221-10-0100-00.lib")(options "")(descr ""))
+  (lib (name "USB4055-30-A")(type "KiCad")(uri "${KIPRJMOD}/components/connectors/usb-c/USB4055-30-A/USB4055-30-A.kicad_sym")(options "")(descr ""))
+  (lib (name "ABS07AIG-32.768KHZ-T")(type "KiCad")(uri "${KIPRJMOD}/components/crystals/32_768kHZ/ABS07AIG-32.768KHZ-T.kicad_sym")(options "")(descr ""))
+  (lib (name "ESP32-WROOM-32E__16MB")(type "Legacy")(uri "${KIPRJMOD}/components/microcontrollers/ESP32/ESP32-WROOM-32E__16MB.lib")(options "")(descr ""))
+  (lib (name "MCIPTG23K-V")(type "Legacy")(uri "${KIPRJMOD}/components/buttons/momentary/MCIPTG23K-V/MCIPTG23K-V.lib")(options "")(descr ""))
+  (lib (name "ADC124S101CIMM")(type "KiCad")(uri "${KIPRJMOD}/components/adc/ADC124S101CIMM/ADC124S101CIMM.kicad_sym")(options "")(descr ""))
+  (lib (name "PKMCS0909E4000-R1")(type "KiCad")(uri "${KIPRJMOD}/components/piezo/PKMCS0909E4000-R1/PKMCS0909E4000-R1.kicad_sym")(options "")(descr ""))
+  (lib (name "S2B-PH-K-S_LF__SN")(type "KiCad")(uri "${KIPRJMOD}/components/connectors/jst/S2B-PH-K-S_LF__SN/S2B-PH-K-S_LF__SN.kicad_sym")(options "")(descr ""))
+  (lib (name "DAC5571IDBVR")(type "KiCad")(uri "${KIPRJMOD}/components/dac/DAC5571IDBVR/DAC5571IDBVR.kicad_sym")(options "")(descr ""))
+)
