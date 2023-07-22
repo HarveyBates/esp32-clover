@@ -1,0 +1,9 @@
+GPIO - 8 (TCA9534 - 0 to 7)
+PWR - 5 (USB, 3.3V, Bat, RESET, GND)
+ADC - 5 (ADC124S... 0 to 3 GND)
+DAC - 5 (MCP4728 0 to 3, GND)
+MISC - 10 (TX, RX, SDA, SCL, SCK, MISO, MOSI, GPIO21, GPIO17, GPIO27)
+	As two 5 Pins
+
+1 x 8 pin
+5 * 5 pin

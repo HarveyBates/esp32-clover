@@ -1,0 +1,110 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "MCP73123T-22SI{slash}MF" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "U" (id 0) (at -10.186 13.369 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "MCP73123T-22SI{slash}MF" (id 1) (at -10.1835 -12.7293 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "SON50P300X300X100-11N" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "MICROCHIP" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "MCP73123T-22SI{slash}MF_0_0"
+      (rectangle (start -10.16 -10.16) (end 10.16 12.7)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin power_in line (at 12.7 10.16 180.0) (length 2.54)
+        (name "VDD1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 10.16 0) (length 2.54)
+        (name "VBAT1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -12.7 -2.54 0) (length 2.54)
+        (name "NC1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -2.54 180.0) (length 2.54)
+        (name "VSS1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin output line (at 12.7 2.54 180.0) (length 2.54)
+        (name "STAT"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 5.08 0) (length 2.54)
+        (name "PROG"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -7.62 180.0) (length 2.54)
+        (name "EXP"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 7.62 180.0) (length 2.54)
+        (name "VDD2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -12.7 7.62 0) (length 2.54)
+        (name "VBAT2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin no_connect line (at -12.7 -5.08 0) (length 2.54)
+        (name "NC2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at 12.7 -5.08 180.0) (length 2.54)
+        (name "VSS2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
