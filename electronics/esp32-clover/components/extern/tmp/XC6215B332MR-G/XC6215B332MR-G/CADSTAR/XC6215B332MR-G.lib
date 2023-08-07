@@ -1,0 +1,18 @@
+.XC6215B332MR-G :1 ;LDO Voltage Regulators 0.8uA Low Quiescent Current Vltg Reg
+SOT95P280X130-5N
+*STM IC
+*NGS
+*PLB 1="VIN" 2="VSS" 3="CE" 4="NC" 5="VOUT"
+*MXP 5
+*DFN XC6215B332MR-G
+~!Manufacturer_Name (Torex)
+~!Manufacturer_Part_Number (XC6215B332MR-G)
+~!Mouser Part Number (865-XC6215B332MR-G)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Torex-Semiconductor/XC6215B332MR-G?qs=AsjdqWjXhJ%252BU0g%252BU2lNkGA%3D%3D)
+~!Arrow Part Number (-)
+~!Arrow Price/Stock (-)
+~!Link Datasheet (https://www.torexsemi.com/file/xc6215/XC6215.pdf)
+~!Height (1.3mm)
+~!3D_Model (XC6215B332MR-G)
+XC6215B332MR-G
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 

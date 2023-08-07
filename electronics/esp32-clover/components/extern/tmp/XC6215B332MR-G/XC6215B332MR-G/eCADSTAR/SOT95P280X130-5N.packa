@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "XC6215B332MR-G"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2020-08-03-07:59:08)
+    (mountForm default
+        (footprintRef "SOT95P280X130-5N")
+        (spec "System")
+    )
+)

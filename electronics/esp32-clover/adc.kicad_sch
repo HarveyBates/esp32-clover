@@ -298,6 +298,11 @@
     (uuid f7829ec3-4678-4cc7-91af-348eb9c9e647)
   )
 
+  (text "TODO Replace PART" (at 113.03 120.65 0)
+    (effects (font (size 4 4)) (justify left bottom))
+    (uuid 42d0ca4c-e740-44a2-878a-35af2bd05b34)
+  )
+
   (label "ADC_IN4" (at 158.115 99.695 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 33cf6005-3898-4911-aec9-9428e08d33f4)
@@ -319,7 +324,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0aa8fa55-d1cf-4558-ab3f-144c9a985e09)
   )
-  (hierarchical_label "GPIO4{slash}ADC_CS" (shape input) (at 116.205 94.615 180) (fields_autoplaced)
+  (hierarchical_label "ADC_CS" (shape input) (at 116.205 94.615 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 4f6e9ac3-e19e-41c8-8e05-dc3a4818cad0)
   )
@@ -355,7 +360,7 @@
           (reference "C17") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "C?") (unit 1)
+          (reference "C9") (unit 1)
         )
       )
     )
@@ -383,7 +388,7 @@
           (reference "#PWR052") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR044") (unit 1)
         )
       )
     )
@@ -411,7 +416,7 @@
           (reference "#PWR056") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -439,7 +444,7 @@
           (reference "#PWR055") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "#PWR089") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
@@ -467,7 +472,7 @@
           (reference "#PWR069") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -495,7 +500,7 @@
           (reference "#PWR054") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "#PWR088") (unit 1)
+          (reference "#PWR045") (unit 1)
         )
       )
     )
@@ -524,7 +529,7 @@
           (reference "C16") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "C?") (unit 1)
+          (reference "C8") (unit 1)
         )
       )
     )
@@ -539,7 +544,7 @@
     (property "Value" "ADC124S101CIMM" (at 139.7 106.299 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "SOP50P490X110-10N" (at 128.27 95.885 0)
+    (property "Footprint" "ADC124S101CIMM:ADC124S101CIMM" (at 128.27 95.885 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/adc124s101.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1668772001635" (at 128.27 95.885 0)
@@ -564,7 +569,7 @@
           (reference "U6") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "U?") (unit 1)
+          (reference "U5") (unit 1)
         )
       )
     )
@@ -579,7 +584,7 @@
     (property "Value" "TBP02R2-381-05BE" (at 198.12 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "CUI_TBP02R2-381-05BE" (at 191.135 97.155 0)
+    (property "Footprint" "TBP02R2-381-05BE:CUI_TBP02R2-381-05BE" (at 191.135 97.155 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "Datasheet" "" (at 191.135 97.155 0)
@@ -602,7 +607,7 @@
           (reference "J6") (unit 1)
         )
         (path "/845f0d6a-9016-490e-9296-0668f78ddd1b/f09230ab-00b9-4398-8896-254b056bb6a1"
-          (reference "J?") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )

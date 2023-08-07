@@ -1,115 +1,86 @@
-Source:,/Users/hbates/projects/esp32-clover/electronics/esp32-clover/esp32-clover.kicad_sch,,,,,,,,,,,,,,,,,,,
-Date:,"Thursday, 24 November 2022 at 10:41:06 pm",,,,,,,,,,,,,,,,,,,
-Tool:,Eeschema (6.0.7-1)-1,,,,,,,,,,,,,,,,,,,
-Generator:,/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py,,,,,,,,,,,,,,,,,,,
-Component Count:,65,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-Individual Components:,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,AVAILABILITY,Color,DESCRIPTION,DIGI-KEY_PART_NUMBER,DIGI-KEY_PURCHASE_URL,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PACKAGE,PARTREV,PRICE,STANDARD,Supplier
-,,C1,4.7uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C2,4.7uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C3,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C4,4.7uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C5,1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C6,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C7,4.7uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C8,1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C9,1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C10,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C11,22uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C12,12pF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C13,12pF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C14,1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C15,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C16,1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,C17,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-,,D1,LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Green,,,,,,,,,,,,
-,,D2,SP0503BAHT,Power_Protection:SP0503BAHT,Package_TO_SOT_SMD:SOT-143,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,,,,,,,,,,,,,,https://au.element14.com/littelfuse/sp0503bahtg/esd-protection-device-5-5v-sot/dp/1827633?st=SP0503BAHTG
-,,D3,LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Orange,,,,,,,,,,,,
-,,D4,LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Orange,,,,,,,,,,,,
-,,D5,LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Green,,,,,,,,,,,,
-,,D6,LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Green,,,,,,,,,,,,
-,,J1,USB4055-30-A,USB4055-30-A:USB4055-30-A,USB4055-30-A:USB4055-30-A,,,,USB Type C Receptacle Horizontal Hybrid PCB Top Mount 10 mm Body,2073-USB4055-30-ACT-ND,https://www.digikey.com.ua/product-detail/en/gct/USB4055-30-A/2073-USB4055-30-ACT-ND/9859729?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol,Global Connector Technology,,,USB4055-30-A,None,B,,Manufacturer Recommendations,https://au.element14.com/gct-global-connector-technology/usb4055-30-a/usb-connector-3-1-type-c-rcpt/dp/2784982?st=usb4055-30-a
-,,J2,BATT_CONN,S2B-PH-K-S_LF__SN:S2B-PH-K-S(LF)(SN),S2B-PH-K-S_LF__SN:S2B-PH-K-S_LF__SN,,Unavailable,,"Connector Header Through Hole, Right Angle 2 position",,,,4.8mm,JST Sales,S2B-PH-K-S_LF__SN_,None,,None,,
-,,J3,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,,,,,,,,,
-,,J4,Conn_ARM_JTAG_SWD_10,Connector:Conn_ARM_JTAG_SWD_10,jtag:3221-10-0100-00,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,,,,,,,,,,,,
-,,J5,Conn_01x10_Male,Connector:Conn_01x10_Male,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,~,,,,,,,,,,,,,,
-,,JP1,SJ_B,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,,
-,,JP2,SJ_B,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,,
-,,JP3,SJ_B,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,,
-,,JP4,SJ_B,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,,
-,,LS1,PKMCS0909E4000-R1,PKMCS0909E4000-R1:PKMCS0909E4000-R1,PKMCS0909E4000-R1:PKMCS0909E4000-R1,https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx,,,,,,Murata Electronics,1.9 mm,,,,"May 22, 2020",,Manufacturer Recommendations,
-,,Q1,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657,,,,,,,,,,,,,,
-,,R1,5.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R2,470,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R3,2.5K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R4,22.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R5,47.5K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R6,1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R7,5.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R8,1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R9,1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R10,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R11,4.7K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R12,10M,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R13,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R14,4.7K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R15,4.7K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R16,470,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R17,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R18,1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R19,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,R20,470,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-,,SW1,RESET,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-,,SW2,BOOT,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-,,SW3,PROG_BTN,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-,,U1,MCP73832-2-OT,Battery_Management:MCP73832-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,,,,,,,,,,,,,,
-,,U2,CP2102N-Axx-xQFN20,Interface_USB:CP2102N-Axx-xQFN20,Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,,,,,,,,,,,,,https://au.element14.com/silicon-labs/cp2102n-a02-gqfn20r/usb-uart-bridge-40-to-85deg-c/dp/3387001?ost=CP2102N-A02-GQFN20R
-,,U3,NCP163ASN330T1G,Regulator_Linear:NCP163ASN330T1G,Package_TO_SOT_SMD:SOT-23-5,https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf,,,,,,,,,,,,,,
-,,U4,ESP32-WROOM-32E_(16MB),ESP32-WROOM-32E__16MB:ESP32-WROOM-32E_(16MB),ESP32:ESP32-WROOM-32E__16MB,,,,,,,Espressif Systems,3.25mm,,,,1.4,,Manufacturer Recommendations,
-,,U5,TCA9534,Interface_Expansion:TCA9534,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/tca9534.pdf,,,,,,,,,,,,,,
-,,U6,ADC124S101CIMM,ADC124S101CIMM:ADC124S101CIMM,ADC124S101CIMM:ADC124S101CIMM,https://www.ti.com/lit/ds/symlink/adc124s101.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1668772001635,,,,,,,,,,,,,,https://www.digikey.com.au/en/products/detail/texas-instruments/ADC124S101CIMM-NOPB/755015
-,,U7,DAC5571IDBVR,DAC5571IDBVR:DAC5571IDBVR,DAC5571IDBVR:SOT95P280X145-6N,,,,,,,,,,,,,,,
-,,Y1,ABS07AIG-32.768KHZ-T,ABS07AIG-32.768KHZ-T:ABS07AIG-32.768KHZ-T,32_768kHZ:ABS07AIG-32.768KHZ-T,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-Collated Components:,,,,,,,,,,,,,,,,,,,,
-,,,,,,,,,,,,,,,,,,,,
-Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,AVAILABILITY,Color,DESCRIPTION,DIGI-KEY_PART_NUMBER,DIGI-KEY_PURCHASE_URL,MANUFACTURER,MAXIMUM_PACKAGE_HEIGHT,MF,MP,PACKAGE,PARTREV,PRICE,STANDARD,Supplier
-1,4,"C1, C2, C4, C7",4.7uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-2,5,"C3, C6, C10, C15, C17",0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-3,5,"C5, C8, C9, C14, C16",1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-4,1,C11,22uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-5,2,"C12, C13",12pF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,,,,,,,,,,,,,
-6,5,"D1, D3, D4, D5, D6",LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,Green,,,,,,,,,,,,
-7,1,D2,SP0503BAHT,Power_Protection:SP0503BAHT,Package_TO_SOT_SMD:SOT-143,http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf,,,,,,,,,,,,,,https://au.element14.com/littelfuse/sp0503bahtg/esd-protection-device-5-5v-sot/dp/1827633?st=SP0503BAHTG
-8,1,J1,USB4055-30-A,USB4055-30-A:USB4055-30-A,USB4055-30-A:USB4055-30-A,,,,USB Type C Receptacle Horizontal Hybrid PCB Top Mount 10 mm Body,2073-USB4055-30-ACT-ND,https://www.digikey.com.ua/product-detail/en/gct/USB4055-30-A/2073-USB4055-30-ACT-ND/9859729?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol,Global Connector Technology,,,USB4055-30-A,None,B,,Manufacturer Recommendations,https://au.element14.com/gct-global-connector-technology/usb4055-30-a/usb-connector-3-1-type-c-rcpt/dp/2784982?st=usb4055-30-a
-9,1,J2,BATT_CONN,S2B-PH-K-S_LF__SN:S2B-PH-K-S(LF)(SN),S2B-PH-K-S_LF__SN:S2B-PH-K-S_LF__SN,,Unavailable,,"Connector Header Through Hole, Right Angle 2 position",,,,4.8mm,JST Sales,S2B-PH-K-S_LF__SN_,None,,None,,
-10,1,J3,Conn_01x08_Male,Connector:Conn_01x08_Male,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,~,,,,,,,,,,,,,,
-11,1,J4,Conn_ARM_JTAG_SWD_10,Connector:Conn_ARM_JTAG_SWD_10,jtag:3221-10-0100-00,http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf,,,,,,,,,,,,,,
-12,1,J5,Conn_01x10_Male,Connector:Conn_01x10_Male,Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical,~,,,,,,,,,,,,,,
-13,4,"JP1, JP2, JP3, JP4",SJ_B,Jumper:SolderJumper_2_Bridged,Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm,~,,,,,,,,,,,,,,
-14,1,LS1,PKMCS0909E4000-R1,PKMCS0909E4000-R1:PKMCS0909E4000-R1,PKMCS0909E4000-R1:PKMCS0909E4000-R1,https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx,,,,,,Murata Electronics,1.9 mm,,,,"May 22, 2020",,Manufacturer Recommendations,
-15,1,Q1,BC847,Transistor_BJT:BC847,Package_TO_SOT_SMD:SOT-23,http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657,,,,,,,,,,,,,,
-16,2,"R1, R7",5.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-17,3,"R2, R16, R20",470,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-18,1,R3,2.5K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-19,1,R4,22.1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-20,1,R5,47.5K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-21,4,"R6, R8, R9, R18",1K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-22,4,"R10, R13, R17, R19",10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-23,3,"R11, R14, R15",4.7K,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-24,1,R12,10M,Device:R,Resistor_SMD:R_0603_1608Metric,~,,,,,,,,,,,,,,
-25,1,SW1,RESET,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-26,1,SW2,BOOT,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-27,1,SW3,PROG_BTN,MCIPTG23K-V:MCIPTG23K-V,MCIPTG23K-V:MCIPTG23K-V,,,,,,,,,,,,,,,
-28,1,U1,MCP73832-2-OT,Battery_Management:MCP73832-2-OT,Package_TO_SOT_SMD:SOT-23-5,http://ww1.microchip.com/downloads/en/DeviceDoc/20001984g.pdf,,,,,,,,,,,,,,
-29,1,U2,CP2102N-Axx-xQFN20,Interface_USB:CP2102N-Axx-xQFN20,Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,,,,,,,,,,,,,https://au.element14.com/silicon-labs/cp2102n-a02-gqfn20r/usb-uart-bridge-40-to-85deg-c/dp/3387001?ost=CP2102N-A02-GQFN20R
-30,1,U3,NCP163ASN330T1G,Regulator_Linear:NCP163ASN330T1G,Package_TO_SOT_SMD:SOT-23-5,https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf,,,,,,,,,,,,,,
-31,1,U4,ESP32-WROOM-32E_(16MB),ESP32-WROOM-32E__16MB:ESP32-WROOM-32E_(16MB),ESP32:ESP32-WROOM-32E__16MB,,,,,,,Espressif Systems,3.25mm,,,,1.4,,Manufacturer Recommendations,
-32,1,U5,TCA9534,Interface_Expansion:TCA9534,Package_SO:TSSOP-16_4.4x5mm_P0.65mm,http://www.ti.com/lit/ds/symlink/tca9534.pdf,,,,,,,,,,,,,,
-33,1,U6,ADC124S101CIMM,ADC124S101CIMM:ADC124S101CIMM,ADC124S101CIMM:ADC124S101CIMM,https://www.ti.com/lit/ds/symlink/adc124s101.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1668772001635,,,,,,,,,,,,,,https://www.digikey.com.au/en/products/detail/texas-instruments/ADC124S101CIMM-NOPB/755015
-34,1,U7,DAC5571IDBVR,DAC5571IDBVR:DAC5571IDBVR,DAC5571IDBVR:SOT95P280X145-6N,,,,,,,,,,,,,,,
-35,1,Y1,ABS07AIG-32.768KHZ-T,ABS07AIG-32.768KHZ-T:ABS07AIG-32.768KHZ-T,32_768kHZ:ABS07AIG-32.768KHZ-T,,,,,,,,,,,,,,,
+"Source:","/Users/hbates/projects/esp32-clover/electronics/esp32-clover/esp32-clover.kicad_sch"
+"Date:","2023 August 04, Friday 09:54:28"
+"Tool:","Eeschema 7.0.6-0"
+"Generator:","/Applications/KiCad/KiCad.app/Contents/SharedSupport/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","136"
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","DNP","Arrow Part Number","Arrow Price/Stock","Color","DESCRIPTION","DIGI-KEY_PART_NUMBER","DIGI-KEY_PURCHASE_URL","Height","MANUFACTURER","MAXIMUM_PACKAGE_HEIGHT","MP","Manufacturer_Name","Manufacturer_Part_Number","Mouser Part Number","Mouser Price/Stock","PACKAGE","PARTREV","Part","SNAPEDA_PN","STANDARD","Supplier"
+"1","1","BT1","BCAAPC","BCAAPC:BCAAPC","BAT_BCAAPC","","","","","","","","","","MPD","13.25mm","","","","","","","05/30/19","","","Manufacturer Recommendation",""
+"2","4","C1, C8, C29, C30","1uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"3","5","C2, C9, C11, C14, C15","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"4","1","C3","22uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"5","4","C4, C5, C6, C7","12pF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"6","1","C10","10uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"7","5","C12, C13, C16, C18, C20","4.7uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"8","1","C17","2.2uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"9","3","C19, C23, C24","1uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"10","2","C21, C22","0.1uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"11","1","C25","10uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"12","1","C26","4.7uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"13","1","C27","22pF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"14","1","C28","TBD","Device:C","Capacitor_SMD:C_0603_1608Metric","~","DNP","","","","","","","","","","","","","","","","","","","",""
+"15","4","C31, C33, C34, C35","22uF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"16","1","C32","10nF","Device:C","","~","","","","","","","","","","","","","","","","","","","","",""
+"17","3","D1, D2, D3","SP4020-01FTG","SP4020-01FTG:SP4020-01FTG","SOD2613X114N","https://www.littelfuse.com/~/media/electronics/datasheets/tvs_diode_arrays/littelfuse_tvs_diode_array_sp4020_datasheet.pdf.pdf","","SP4020-01FTG","https://www.arrow.com/en/products/sp4020-01ftg/littelfuse?region=nac","","","","","1.14","","","","LITTELFUSE","SP4020-01FTG","576-SP4020-01FTG","https://www.mouser.co.uk/ProductDetail/Littelfuse/SP4020-01FTG?qs=eIdvKxokjW4Yi6Ov7kZjPg%3D%3D","","","","","",""
+"18","5","D4, D5, D7, D8, D9","LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","","","","Green","","","","","","","","","","","","","","","","",""
+"19","1","D6","SP0503BAHT","Power_Protection:SP0503BAHT","Package_TO_SOT_SMD:SOT-143","http://www.littelfuse.com/~/media/files/littelfuse/technical%20resources/documents/data%20sheets/sp05xxba.pdf","","","","","","","","","","","","","","","","","","","","","https://au.element14.com/littelfuse/sp0503bahtg/esd-protection-device-5-5v-sot/dp/1827633?st=SP0503BAHTG"
+"20","2","D10, D11","LED","Device:LED","","~","","","","","","","","","","","","","","","","","","","","",""
+"21","2","D12, D13","SK34A","diodes:SK34A","diodes:SK34A","","","","","","","","","","Taiwan Semiconductor","2.5 mm","","","","","","","O2102","","","IPC-7351B",""
+"22","1","D14","D_Schottky","Device:D_Schottky","","~","","","","","","","","","","","","","","","","","","","","",""
+"23","9","J1, J2, J3, J4, J6, J7, J8, J9, J10","TBP02R2-381-05BE","TBP02R2-381-05BE:TBP02R2-381-05BE","CUI_TBP02R2-381-05BE","","","","","","","","","","CUI","","","","","","","","","","","Manufacturer Recommendations",""
+"24","1","J5","Conn_ARM_JTAG_SWD_10","Connector:Conn_ARM_JTAG_SWD_10","jtag:3221-10-0100-00","http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf","","","","","","","","","","","","","","","","","","","","",""
+"25","1","J11","USB4055-30-A","USB4055-30-A:USB4055-30-A","USB4055-30-A:USB4055-30-A","","","","","","USB Type C Receptacle Horizontal Hybrid PCB Top Mount 10 mm Body","2073-USB4055-30-ACT-ND","https://www.digikey.com.ua/product-detail/en/gct/USB4055-30-A/2073-USB4055-30-ACT-ND/9859729?utm_source=snapeda&utm_medium=aggregator&utm_campaign=symbol","","Global Connector Technology","","USB4055-30-A","","","","","None","B","","","Manufacturer Recommendations","https://au.element14.com/gct-global-connector-technology/usb4055-30-a/usb-connector-3-1-type-c-rcpt/dp/2784982?st=usb4055-30-a"
+"26","1","J12","ST1W008S4AR1500","ST1W008S4AR1500:ST1W008S4AR1500","JAE_ST1W008S4AR1500","","","","","","","","","","JAE Electronics","2.0 mm","","","","","","","2","","","Manufacturer Recommendations",""
+"27","1","L1","10uH","Device:L","","~","","","","","","","","","","","","","","","","","","ASPI-4030S-100M-T","","",""
+"28","1","L2","1uH","Device:L","","~","","","","","","","","","","","","","","","","","","Similar to: XFL4020-102ME","","",""
+"29","1","LS1","PKMCS0909E4000-R1","PKMCS0909E4000-R1:PKMCS0909E4000-R1","SPKR_PKMCS0909E4000-R1","https://www.murata.com/~/media/webrenewal/products/sound/sounder/vppt-buzj083-d.ashx","","","","","","","","","Murata Electronics","1.9 mm","","","","","","","May 22, 2020","","","Manufacturer Recommendations",""
+"30","1","Q1","BC847","Transistor_BJT:BC847","Package_TO_SOT_SMD:SOT-23","http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657","","","","","","","","","","","","","","","","","","","","",""
+"31","1","Q2","MMDT3904","Transistor_BJT:MMDT3904","Package_TO_SOT_SMD:SOT-363_SC-70-6","http://www.diodes.com/_files/datasheets/ds30088.pdf","","","","","","","","","","","","","","","","","","","","",""
+"32","1","Q3","2N7002","Transistor_FET:2N7002","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF","","","","","","","","","","","","","","","","","","","","",""
+"33","1","Q4","BSS214NW","Transistor_FET:BSS214NW","Package_TO_SOT_SMD:SOT-323_SC-70","https://www.infineon.com/dgdl/Infineon-BSS214NW-DS-v02_02-en.pdf?fileId=db3a30431b3e89eb011b695aebc01bde","","","","","","","","","","","","","","","","","","","","",""
+"34","1","Q5","DMG2305UX-13","DMG2305UX-13:DMG2305UX-13","SOT91P240X110-3N","","","","","","","","","","Diodes Inc.","1.1mm","","","","","","","09/2018","","","IPC-7351B",""
+"35","7","R1, R2, R4, R7, R9, R24, R25","10K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"36","1","R3","10M","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"37","4","R5, R6, R11, R12","4.7K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"38","5","R8, R21, R22, R23, R29","1K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"39","1","R10","120","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"40","2","R13, R15","470","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"41","2","R14, R40","100K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"42","2","R16, R18","5.1K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"43","1","R17","1M","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"44","1","R19","22.1K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"45","1","R20","47.5K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"46","1","R26","2","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"47","1","R27","82K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"48","2","R28, R38","20K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"49","2","R30, R31","500","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"50","1","R32","5.32K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"51","1","R33","30.1K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"52","1","R34","2.3K","Device:R","Resistor_SMD:R_0603_1608Metric","~","","","","","","","","","","","","","","","","","","","","",""
+"53","1","R35","10","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"54","1","R36","0.2","Device:R","","~","","","","","","","","","","","","","","","","","","WSL1206R2000FEA","","",""
+"55","1","R37","28K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"56","2","R39, R41","10K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"57","1","R42","402K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"58","1","R43","100K","Device:R","","~","","","","","","","","","","","","","","","","","","","","",""
+"59","3","S1, S2, S3","TL1105F160Q","TL1105F160Q:TL1105F160Q","SW_TL1105F160Q","","","","","","","","","","E-Switch","13 mm","","","","","","","A","","TL1105DF160Q","Manufacturer Recommendations",""
+"60","1","S4","DS01-254-S-01BE","DS01-254-S-01BE:DS01-254-S-01BE","SW_DS01-254-S-01BE","","","","","","","","","","CUI","7.0mm","","","","","","","1.0","","","Manufacturer recommendations",""
+"61","1","SC1","Solar_Cell","Device:Solar_Cell","","~","","","","","","","","","","","","","","","","","","","","",""
+"62","1","TH1","~","Device:Thermistor","","~","","","","","","","","","","","","","","","","","","NXFT15XH103FEAB035","","",""
+"63","1","U1","ESP32-WROOM-32E_(16MB)","ESP32-WROOM-32E__16MB:ESP32-WROOM-32E_(16MB)","ESP32:ESP32-WROOM-32E__16MB","","","","","","","","","","Espressif Systems","3.25mm","","","","","","","1.4","","","Manufacturer Recommendations",""
+"64","1","U2","TXB0104PW","Logic_LevelTranslator:TXB0104PW","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","http://www.ti.com/lit/ds/symlink/txb0104.pdf","","","","","","","","","","","","","","","","","","","","",""
+"65","1","U3","MCP2515-xSO","Interface_CAN_LIN:MCP2515-xSO","Package_SO:SOIC-18W_7.5x11.6mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf","","","","","","","","","","","","","","","","","","","","",""
+"66","1","U4","MCP2562-E-SN","Interface_CAN_LIN:MCP2562-E-SN","Package_SO:SOIC-8_3.9x4.9mm_P1.27mm","http://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf","","","","","","","","","","","","","","","","","","","","",""
+"67","1","U5","ADC124S101CIMM","ADC124S101CIMM:ADC124S101CIMM","SOP50P490X110-10N","https://www.ti.com/lit/ds/symlink/adc124s101.pdf?HQS=dis-dk-null-digikeymode-dsf-pf-null-wwe&ts=1668772001635","","","","","","","","","","","","","","","","","","","","","https://www.digikey.com.au/en/products/detail/texas-instruments/ADC124S101CIMM-NOPB/755015"
+"68","2","U6, U7","TCA9534","Interface_Expansion:TCA9534","Package_SO:TSSOP-16_4.4x5mm_P0.65mm","http://www.ti.com/lit/ds/symlink/tca9534.pdf","","","","","","","","","","","","","","","","","","","","",""
+"69","1","U8","MCP4728","Analog_DAC:MCP4728","Package_SO:MSOP-10_3x3mm_P0.5mm","http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf","","","","","","","","","","","","","","","","","","","","",""
+"70","1","U9","CP2102N-Axx-xQFN20","Interface_USB:CP2102N-Axx-xQFN20","Package_DFN_QFN:SiliconLabs_QFN-20-1EP_3x3mm_P0.5mm_EP1.8x1.8mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf","","","","","","","","","","","","","","","","","","","","","https://au.element14.com/silicon-labs/cp2102n-a02-gqfn20r/usb-uart-bridge-40-to-85deg-c/dp/3387001?ost=CP2102N-A02-GQFN20R"
+"71","1","U10","MCP73123T-22SI/MF","MCP73123T-22SI_MF:MCP73123T-22SI{slash}MF","SON50P300X300X100-11N","","","","","","","","","","MICROCHIP","","","","","","","","","","","",""
+"72","1","U11","BQ24650RVAR","solar-charger:BQ24650RVAR","solar-charger:BQ24650RVAR","","","","","","","","","","","","","","","","","","","","","",""
+"73","2","U12, U13","PMV30UN","mosfets:PMV30UN","mosfets:PMV30UN","PMV30UN","","","","","","","","","","","","","","","","","","","","",""
+"74","1","U14","NCP163ASN330T1G","Regulator_Linear:NCP163ASN330T1G","Package_TO_SOT_SMD:SOT-23-5","https://www.onsemi.com/pdf/datasheet/ncp163-d.pdf","","","","","","","","","","","","","","","","","","","","",""
+"75","1","U15","TPS61230DRC","Regulator_Switching:TPS61230DRC","Package_SON:Texas_S-PVSON-N10_ThermalVias","http://www.ti.com/lit/ds/symlink/tps61232.pdf","","","","","","","","","","","","","","","","","","","","",""
+"76","1","Y1","ABS07AIG-32.768KHZ-T","ABS07AIG-32.768KHZ-T:ABS07AIG-32.768KHZ-T","XTAL320X150X90","","","","","","","","","","","","","","","","","","","","","",""
+"77","1","Y2","Crystal_GND24_Small","Device:Crystal_GND24_Small","","~","","","","","","","","","","","","","","","","","","","","",""

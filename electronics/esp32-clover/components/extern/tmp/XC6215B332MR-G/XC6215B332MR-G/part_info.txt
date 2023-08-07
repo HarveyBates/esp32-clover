@@ -1,0 +1,9 @@
+Manufacturer=Torex
+PartNumber=XC6215B332MR-G
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (5-Pin)
+PinCount=5
+Version=1.1
+Released=2020-08-03 07:59:08
+Downloaded=2023-08-05 01:51:55
+3D=Y

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP XC6215B332MR-G
+D LDO Voltage Regulators 0.8uA Low Quiescent Current Vltg Reg
+K
+F https://www.torexsemi.com/file/xc6215/XC6215.pdf
+$ENDCMP
+#
+#End Doc Library
